@@ -31,6 +31,10 @@
   font-family: greatVictorianStandard;
 }
 
+h1 {
+  font-family: GreatVictorian;
+  font-size: 4rem;
+}
 
 .logo {
   font-family: GreatVictorian;
@@ -75,8 +79,6 @@
 }
 
 .hero-section-2 h1 {
-  font-family: GreatVictorian;
-  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -116,6 +118,7 @@
 
 .history-section-1 {
   width: 50rem;
+
 }
 
 .history-section-1 h1{
@@ -125,10 +128,8 @@
 }
 
 
-.history-section-2 {
-  width: 80rem;
-  margin: 0 auto;
-}
+/* .history-section-2 {
+} */
 
 .history-info h1{
   font-family: GreatVictorian;
@@ -152,4 +153,100 @@
 
 .link-wrapper a {
   line-height: 25px;
+}
+
+
+
+
+
+/* menu */
+
+
+
+
+@media screen and (max-width : 1024px){
+
+.text-container {
+  width: 30rem;
+}
+
+  .text-container  h1{
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  
+  .specialities-wrapper{
+    margin: 0 1rem;
+  }
+
+  .h-d-wrapper img {
+    width: 20%;
+  }
+}
+
+
+
+@media screen and (max-width : 720px){
+  .text-container {
+    text-align: center;
+    /* background-color: aqua; */
+  }
+
+}
+
+
+@media screen and (max-width : 500px){
+.text-container {
+  width: 25rem;
+  text-align: center;
+}
+
+  .text-container h1 {
+    font-size: 4rem;
+  }
+
+  .hero-image {
+    width: 70%;
+    margin:5rem 0 0 0;
+  }
+
+  .hero-section-2 {
+    width: 25rem;
+  }
+
+  .guide-section-1 {
+    text-align: center;
+    margin: 2rem;
+  }
+
+  .guide-section-1 h1 {
+    font-size: 3rem;
+  }
+
+.history-section-1 {
+  width: 80%;
+}
+
+.history-section-1 h1 {
+  line-height: 4rem;
+}
+
+  .h-d-wrapper img {
+    width: 50%;
+  }
+
+  .h-d-wrapper div {
+    width: 20rem;
+    text-align: center;
+  }
+
+  .footer-section-1 {
+    text-align: center;
+  }
+
+
+  .footer-section-1 div{
+    width: 9rem;
+    margin-top: 1rem;
+  }
 }

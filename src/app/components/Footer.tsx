@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className='mt-24'>
-            <section className='flex justify-evenly footer-section-1'>
+            <section className='flex justify-evenly flex-wrap footer-section-1'>
                 <div className='w-48'>
                     <p className='greatVictorian font-bold text-lg'>Indian <span className='text-red-700 greatVictorian font-bold'> Pallete </span></p>
                     <p>Lorem ipsum dolor sit am consectetur adipisicing elit.</p>

@@ -3,7 +3,7 @@ import React from 'react'
 const Guide = () => {
     return (
         <>
-            <main className='flex justify-evenly items-center mt-20'>
+            <main className='flex justify-evenly items-center flex-wrap-reverse mt-20'>
                 <section className='guide-section-1'>
                     <h1>Our Chef will Guide you through indian cuisine</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.

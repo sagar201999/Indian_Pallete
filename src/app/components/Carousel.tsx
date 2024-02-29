@@ -4,7 +4,7 @@ const Carousel = () => {
     return (
         <>
 
-            <div className='flex justify-around'>
+            <div className='flex justify-around flex-wrap specialities'>
                 <div className='specialities-wrapper'>
                     <img src='../../../assests/panjabi_thali.png' alt=' ' className='thali' />
                     <div className='text-center'>
