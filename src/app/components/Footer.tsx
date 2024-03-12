@@ -56,7 +56,7 @@ const Footer = () => {
 
             </section>
             <hr className='my-3'/>
-            <section className='flex justify-around'>
+            <section className='flex justify-around py-3'>
                 <p>Copyright @ 2023 ED</p>
                 <p>All Rights Reserved | <a href='#T&C'>Term & Conditions</a> | <a href='#P&P'>Private Policy</a></p>
             </section>
