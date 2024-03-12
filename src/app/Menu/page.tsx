@@ -15,7 +15,7 @@ const Menu = () => {
         </div>
         <section className='flex justify-evenly flex-wrap items-center mt-10'>
           {menuItems.map((items) => (
-            <div className="card m-2">
+            <div key={items.id} className="card m-2">
               <div key={items.id} className="content">
                 <div className="back">
                   <div className="back-content">
